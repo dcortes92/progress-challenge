@@ -38,11 +38,33 @@
     display: none;
   }
 
-  .progress .progress-bar {
-    background-color: green;
+  .progress-container {
+    text-align: center;
+    margin-bottom: 20px;
+
+    .progress,
+    .reached,
+    .target {
+      display: inline-block;
+    }
+
+    .progress {
+      width: 50%;
+      margin-bottom: 0;
+      .progress-bar {
+        background-color: green;
+      }
+    }
   }
 
   .glyphicon-info-sign {
     color: blue;
+  }
+
+  .target {
+    width: 50px;
+    border: 1px solid #000;
+    background-color: #ddd;
+    text-align: center;
   }
 }
