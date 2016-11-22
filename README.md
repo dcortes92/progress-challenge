@@ -9,3 +9,5 @@
   - I assumed IE10+ and used plain jQuery animate. If we're targeting older browsers
   the animations will be limited.
 1. I also assumed the design for the mobile view. Instead of showing the elements inline, I added the usual stacking feature for smaller screens.
+
+Check [demo ](https://dcortes92.github.io/progress-challenge/dist) here.
