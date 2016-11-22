@@ -1,0 +1,48 @@
+// modal
+
+#myProgressModal {
+  $border-radius: 5px;
+
+  .modal-dialog {
+    border-radius: 10px;
+    border: 1px solid #000;
+  }
+
+  .modal-header {
+    background: #000;
+    color: #fff;
+    border-top-right-radius: $border-radius;
+    border-top-left-radius: $border-radius;
+
+    .close {
+      color: #fff;
+      text-shadow: none;
+      opacity: 1;
+    }
+  }
+
+  .modal-body {
+    background-color: #ddd;
+    border-bottom-right-radius: $border-radius;
+    border-bottom-left-radius: $border-radius;
+
+    .content {
+      border: 1px solid #000;
+      background-color: #fff;
+      padding: 10px 20px;
+      border-radius: $border-radius;
+    }
+  }
+
+  .modal-footer {
+    display: none;
+  }
+
+  .progress .progress-bar {
+    background-color: green;
+  }
+
+  .glyphicon-info-sign {
+    color: blue;
+  }
+}
