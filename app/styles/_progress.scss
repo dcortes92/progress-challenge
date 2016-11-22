@@ -68,3 +68,15 @@
     text-align: center;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  #myProgressModal .progress-container {
+    .progress,
+    .reached,
+    .target {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+}
